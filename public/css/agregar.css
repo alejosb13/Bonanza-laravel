@@ -1,0 +1,84 @@
+.resultados {
+    margin-bottom: 35px;
+    overflow-y: scroll;
+    height: 426px;
+}
+
+
+.principal .formulario {
+    width: 640px;
+    padding: 20px 20px;
+    overflow: hidden;
+    margin: 0 auto 28px;
+    border: 2px solid #3c753d;
+    border-radius: 5px;
+}
+
+.principal .formulario textarea {
+    height: 71px;
+}
+
+.principal .formulario textarea,
+.principal .formulario input {
+    font-size: 16px;
+}
+
+.principal .formulario .short .col-md-6 {
+    padding: 0px;
+}
+
+.principal .formulario .short .left {
+    padding-left: 15px;
+}
+
+.principal .formulario .short .right {
+    padding-right: 15px;
+}
+
+.principal .formulario .boton {
+    background: #3c753d;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.principal .formulario .boton:hover {
+    background: #47a248;
+}
+
+.exist .form-control {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+
+.principal .info h3 {
+    float: left;
+}
+
+.principal .info .vpaginacion {
+    float: right;
+    margin: 20px 0px 0px 0px;
+}
+
+.principal .info {
+    overflow: hidden;
+}
+
+.principal .info .cantidad {
+    line-height: 35px;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .principal .formulario {
+        width: 100%;
+    }
+    .principal .formulario .short .left {
+        padding-left: 0px;
+    }
+    .principal .formulario .short .right {
+        padding-right: 0px;
+    }
+}
